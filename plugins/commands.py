@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🔱 𝙶𝚛𝚘𝚞𝚙', url='https://t.me/Mallu_Movie_Hub_Group')
+                InlineKeyboardButton('⌬ 𝙶𝚛𝚘𝚞𝚙', url='https://t.me/Mallu_Movie_Hub_Group')
             ],
             [
-                InlineKeyboardButton('ℹ️ 𝙷𝚎𝚕𝚙', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('〄 𝙷𝚎𝚕𝚙', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -44,11 +44,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⤬ 𝙰𝚍𝚍 𝙼𝚎 𝚃𝚘 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙𝚜 ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🔱 𝙶𝚛𝚘𝚞𝚙', url='https://t.me/Mallu_Movie_Hub_Group'),
-            InlineKeyboardButton('📺 𝙲𝚑𝚊𝚗𝚗𝚎𝚕', url='https://t.me/CINEMA_CITY_UPDATES')
+            InlineKeyboardButton('⌬ 𝙶𝚛𝚘𝚞𝚙', url='https://t.me/Mallu_Movie_Hub_Group'),
+            InlineKeyboardButton('✇ 𝙲𝚑𝚊𝚗𝚗𝚎𝚕', url='https://t.me/CINEMA_CITY_UPDATES')
         ], [
-            InlineKeyboardButton('ℹ️ 𝙷𝚎𝚕𝚙', callback_data='help'),
-            InlineKeyboardButton('😊 𝙰𝚋𝚘𝚞𝚝', callback_data='about')
+            InlineKeyboardButton('〄 𝙷𝚎𝚕𝚙', callback_data='help'),
+            InlineKeyboardButton('⍟ 𝙰𝚋𝚘𝚞𝚝', callback_data='about')
         ], [
             InlineKeyboardButton('🔍𝚂𝚎𝚊𝚛𝚌𝚑 𝙰𝚐𝚊𝚒𝚗🔎', switch_inline_query_current_chat=''),
         ]]
@@ -92,11 +92,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⤬ 𝙰𝚍𝚍 𝙼𝚎 𝚃𝚘 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙𝚜 ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🔱 𝙶𝚛𝚘𝚞𝚙', url='https://t.me/Mallu_Movie_Hub_Group'),
-            InlineKeyboardButton('📺 𝙲𝚑𝚊𝚗𝚗𝚎𝚕', url='https://t.me/CINEMA_CITY_UPDATES')
+            InlineKeyboardButton('⌬ 𝙶𝚛𝚘𝚞𝚙', url='https://t.me/Mallu_Movie_Hub_Group'),
+            InlineKeyboardButton('✇ 𝙲𝚑𝚊𝚗𝚗𝚎𝚕', url='https://t.me/CINEMA_CITY_UPDATES')
         ], [
-            InlineKeyboardButton('ℹ️ 𝙷𝚎𝚕𝚙', callback_data='help'),
-            InlineKeyboardButton('😊 𝙰𝚋𝚘𝚞𝚝', callback_data='about')
+            InlineKeyboardButton('〄 𝙷𝚎𝚕𝚙', callback_data='help'),
+            InlineKeyboardButton('⍟ 𝙰𝚋𝚘𝚞𝚝', callback_data='about')
         ], [
             InlineKeyboardButton('🔍𝚂𝚎𝚊𝚛𝚌𝚑 𝙰𝚐𝚊𝚒𝚗', switch_inline_query_current_chat=''),
         ]]
